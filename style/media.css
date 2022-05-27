@@ -1,0 +1,158 @@
+@media(max-width: 1120px) {
+    .main-cards {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .main-card {
+        margin-top: 30px;
+    }
+    
+    .box-description {
+        font-size: 20px;
+        max-width: 500px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    
+    .main-box1 {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .main-box2 {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .main-box3 {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .main-img1 {
+        margin: 0 auto;
+        margin-top: 30px;
+        
+    }
+    
+    .main-img2 {
+        margin: 0 auto;
+        
+    }
+    .main-img3 {
+        
+    }
+    
+    .box-description2 {
+        text-align: center;
+    }
+    .box-description3 {
+        text-align: center;
+    }
+    
+    .header-title {
+        font-size: 75px;
+    }
+    
+}
+@media(max-width: 700px) {
+    .main-img1 {
+        margin: 0 auto;
+        width: 100%;
+        
+    }
+    
+    .main-img2 {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .main-img3 {
+        width: 100%;
+    } 
+    
+}
+
+@media(max-width: 630px) {
+    .footer-content {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .footer-logo {
+        margin: 30px 0;
+    }
+    
+    .footer-nav {
+        padding: 0;
+        margin: 0 auto;
+        
+    }
+    
+    .footer-icon {
+        padding: 0;
+        margin: 5px;
+    }
+    
+    .footer-link {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    
+    .icon {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .header-title {
+        text-align: center;
+        font-size: 65px;
+    }
+    
+    .content-nav {
+       flex-direction: column;
+       display: flex;
+       padding: 10px;
+    }
+    
+    .nav-link {
+        
+    }
+    
+    .main-img3 {
+        width: 50%;
+        padding: 15px;
+    }
+    .main-img2 {
+        width: 80%;
+    }
+    
+    .main-img1 {
+        width: 80%;
+    }
+    .icon {
+        margin-bottom: 30px;
+    }
+    
+    
+}
+
+@media (max-width: 440px) {
+    .header-title {
+        font-size: 50px;
+    }
+    .title-link {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+    .icon {
+        margin-bottom: 30px;
+    }
+}
+
+
+    
